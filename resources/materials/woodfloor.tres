@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="uid://deiodaodyqpxm"]
+
+[ext_resource type="Texture2D" uid="uid://det4fobmdaef1" path="res://resources/textures/wood floor/WoodFloor043_1K_Color.png" id="1_l6qwk"]
+[ext_resource type="Texture2D" uid="uid://c8ief4u3julwa" path="res://resources/textures/wood floor/WoodFloor043_1K_AmbientOcclusion.png" id="2_r7wto"]
+[ext_resource type="Texture2D" uid="uid://c5gch4vob4n4p" path="res://resources/textures/wood floor/WoodFloor043_1K_Metalness.png" id="3_wg5on"]
+[ext_resource type="Texture2D" uid="uid://bt1nmooi17nht" path="res://resources/textures/wood floor/WoodFloor043_1K_NormalGL.png" id="4_wgx27"]
+[ext_resource type="Texture2D" uid="uid://pq1t774dqw42" path="res://resources/textures/wood floor/WoodFloor043_1K_Roughness.png" id="5_qhtth"]
+
+[resource]
+albedo_texture = ExtResource("1_l6qwk")
+metallic = 1.0
+metallic_texture = ExtResource("3_wg5on")
+roughness_texture = ExtResource("5_qhtth")
+normal_enabled = true
+normal_texture = ExtResource("4_wgx27")
+ao_enabled = true
+ao_texture = ExtResource("2_r7wto")
